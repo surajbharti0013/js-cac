@@ -4,6 +4,8 @@
 // console.log(2 == 1); //false
 // console.log(2 != 1); //true
 
+/*When we do comparision between two different datatypes then problem arises*/
+
 // console.log("2" > 1); //true
 // console.log("02" > 1); //true
 
