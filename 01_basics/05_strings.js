@@ -21,4 +21,15 @@ console.log(anotherString);
 
 const newStringOne = "     suraj      ";
 console.log(newStringOne);
-console.log(newStringOne.trim()); // This function(trim()) removes the extra space around character from start and from end not between to character/
+console.log(newStringOne.trim()); // This function(trim()) removes the extra space around character from start and from end not between to character. It has more value as trimStart() and trimEnd().
+
+const url = "https//suraj.com/suraj%20bharti";
+
+console.log(url);
+console.log(url.replace('%20','-')); // This function replace text/string from mention string in bracket you have to just mention (we have to replace what -to what).
+
+console.log(url.includes('suraj')); // This function checks give text/string is present in string or not by giving value true and false
+
+const newSplitText = "hello suraj kumar bharti ";
+const newSplittedText = newSplitText.split(' ');
+console.log(newSplittedText[1]);// split function:- We gives sentence and mentions seprator will be and get the word which is on mentioned index.
