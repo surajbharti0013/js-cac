@@ -1,15 +1,26 @@
 const name = "suraj";
 const repoCount = 50;
-console.log(name + repoCount + " Value");
-console.log(`Hello my name is ${name}, and my repo count is ${repoCount}`);
 
-const gameName = new String('suraj-sb');
-console.log(gameName[0]);// This tells on 0 index what text is it.
+// console.log(name + repoCount + " Value");
+console.log(`Hello, my name is ${name} and my repo count is ${repoCount}`);
+
+const gameName = new String("surajsb");
+const str2 = 'world';
+
+console.log(gameName[0]);  // tells on 0th index character is
 console.log(gameName.__proto__);// This tells us is it object etc.
-console.log(gameName.length);// This tells us length of text/string.
-console.log(gameName.toUpperCase());// Convert full text/string to upper case.
-console.log(gameName.charAt(2));// This tells on what index what text/character is it.
-console.log(gameName.indexOf('s'));// This tells on what text/character is on what index.
+console.log(gameName.length); // tells total length of string includes zeros
+console.log(gameName.toUpperCase()); // converts string to uppercase character
+console.log(gameName.anchor("https://www.google.com")); // puts anchor tags to given text
+console.log(gameName.at()); // tells the starting character is on what index. (if we specifies positive number then it checks from left and if negative then from right side)
+console.log(gameName.big()); // increase the font size of string/text.
+console.log(gameName.bold()); // converts text to bold text.
+console.log(gameName.blink()); // converts text to blink text.
+console.log(gameName.charAt(2)); // can ask specific text is on what index/number. 
+console.log(gameName.charCodeAt(2)); // specify uni-code of given index/number. 
+console.log(gameName.indexOf('r')); // can ask by specifying character is on what index/position
+console.log(gameName.concat(" " + str2)); // it is used to join two string.
+
 //console.log(gameName.substring(6,0));// Here in bracket we define we want text from - to(Means from char 0 to 3 etc, it is different form slice() because:- The substring() method swaps its two arguments if indexStart is greater than indexEnd, meaning that a string is still returned. )
 //console.log(gameName.slice(3,0));// Here in bracket we define we want text from - to(Means from char 0 to 3 etc. here we can give negative value.
 
