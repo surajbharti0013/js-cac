@@ -25,9 +25,8 @@ const hundreds = 1000000;
 // console.log(Math.min(4, 3, 6, 8)); // Minimum number in give bracket
 // console.log(Math.max(4, 3, 6, 8)); // Maximum number in give bracket
 
-// console.log(Math.random()); // always gives random number between 0 and 1. 
-// console.log((Math.random()*10) + 1);
-// console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.random()); // Will give random no from 0 to 0.99
+// console.log((Math.random()*10) + 1); // multiply by 10 means will give numbers from 0 till 9.99 and addition 1 will change range from 1 to 10
 
 const min = 10;
 const max = 20; 
