@@ -1,10 +1,10 @@
-/* array The Array object, as with arrays in other programming languages, enables storing a collection of multiple items under a single variable name. JavaScript arrays are resizable and can contain a mix of different data types.  */
+/* array:- The Array object, as with arrays in other programming languages, enables storing a collection of multiple items under a single variable name. JavaScript arrays are resizable and can contain a mix of different data types.  */
 
-const myArr = [0, 1, 2, 3, 4, 5];
+const myArr = [0, 1, 2, 3, 4, 5]; // Things inside array list are elements.
 const myHeros = ["shaktiman", "naagraj"];
 
 // console.log(myArr); //Returns full list under myArr
-// console.log(myArr[3]); //Returns what is on index[3]
+// console.log(myHeros[1]); //Returns what is on index[1]
 
 const myArr2 = new Array(1, 2, 3, 4);
 // console.log(myArr2[1]); //Returns what is on index[1]. Remember we can define arrays in brackets but its recommended to use square brackets method.
@@ -29,10 +29,11 @@ const myArr2 = new Array(1, 2, 3, 4);
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1, 3); // slice() show only selected/defined part.
-console.log(myn1);
+const myn1 = myArr.slice(1, 3); // slice() show only selected/defined part. Starts with first and dont include third. But keep old array list as it is.
+console.log("slice ", myn1);
 
 console.log("B ", myArr);
-const myn2 = myArr.splice(1, 3); // splice() don't show selected/defined part.
+const myn2 = myArr.splice(1, 3); // splice() don't show selected/defined part and changes old array list by substracting defined part/index
+//console.log("C ", myArr);
+console.log("splice ", myn2);
 console.log("C ", myArr);
-console.log(myn2);
