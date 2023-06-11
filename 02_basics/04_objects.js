@@ -1,81 +1,55 @@
-// const tinderUser = new Object()
-const tinderUser = {}
+// const tinderUser = new Object(); // Like this we can declare object, its singleton object
 
-tinderUser.id = "123abc"
-tinderUser.name = "Sammy"
-tinderUser.isLoggedIn = false
+const tinderUser = {}; //its non singleton object
 
+tinderUser.id = "123abc";
+tinderUser.name = "Sammy";
+tinderUser.isLoggedIn = false;
 // console.log(tinderUser);
 
 const regularUser = {
-    email: "some@gmail.com",
-    fullname: {
-        userfullname: {
-            firstname: "hitesh",
-            lastname: "choudhary"
-        }
-    }
-}
+  email: "some@gmail.com",
+  fullname1: {
+    userfullname: {
+      firstname: "suraj",
+      lastname: "bharti",
+    },
+  },
+  fullname2: {
+    userfullname: {
+      firstname: "raj",
+      lastname: "bharti",
+    },
+  },
+};
 
-// console.log(regularUser.fullname.userfullname.firstname);
+// console.log(regularUser.fullname1.userfullname.firstname); // We can go inside any object by using dot(.) in front of its name.
 
-const obj1 = {1: "a", 2: "b"}
-const obj2 = {3: "a", 4: "b"}
-const obj4 = {5: "a", 6: "b"}
+const obj1 = { 1: "a", 2: "b" };
+const obj2 = { 3: "c", 4: "d" };
+const obj4 = { 5: "e", 6: "f" };
 
-// const obj3 = { obj1, obj2 }
-// const obj3 = Object.assign({}, obj1, obj2, obj4)
+// const obj3 = { obj1, obj2 };
+// const obj3 = Object.assign({}, obj1, obj2, obj4);
 
-const obj3 = {...obj1, ...obj2}
+const obj3 = { ...obj1, ...obj2, ...obj4 }; //like spread method in array, this is same as above but here we dont have to remember about curly paranthses ({})
 // console.log(obj3);
 
-
 const users = [
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-    {
-        id: 1,
-        email: "h@gmail.com"
-    },
-]
+  {
+    id: 1,
+    email: "s@gmail.com",
+  },
+  {
+    id: 2,
+    email: "b@gmail.com",
+  },
+];
 
-users[1].email
-// console.log(tinderUser);
+// console.log(users[0].email);
 
-// console.log(Object.keys(tinderUser));
-// console.log(Object.values(tinderUser));
-// console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser)); // If i want all to take all keys from tinderUser object
+// console.log(Object.keys(tinderUser).length); // to calculate keys length.
+// console.log(Object.entries(tinderUser)); // to see values and keys
 
-// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
-
-
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
-}
-
-// course.courseInstructor
-
-const {courseInstructor: instructor} = course
-
-// console.log(courseInstructor);
-console.log(instructor);
-
-// {
-//     "name": "hitesh",
-//     "coursename": "js in hindi",
-//     "price": "free"
-// }
-
-[
-    {},
-    {},
-    {}
-]
+console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to check given value is there is defined object and the value comes is in boolean format
