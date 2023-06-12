@@ -52,4 +52,18 @@ const users = [
 // console.log(Object.keys(tinderUser).length); // to calculate keys length.
 // console.log(Object.entries(tinderUser)); // to see values and keys
 
-console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to check given value is there is defined object and the value comes is in boolean format
+// console.log(tinderUser.hasOwnProperty("isLoggedIn")); // to check given value is there is defined object and the value comes is in boolean format
+
+//****************************Object part 3************************************ */
+
+const course = {
+  coursename: "js in hindi",
+  price: "999",
+  courseInstructor: "suraj"
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor);
