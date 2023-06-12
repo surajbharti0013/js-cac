@@ -49,10 +49,10 @@ jsUser.greeting = function () {
   console.log("Hello js user");
 };
 jsUser.greetingTwo = function () {
-  console.log(`Hello js user, ${this.age} `); // this is used when we want to take some data from current object
+  console.log(`Hello js user, ${this.age} `); // this is used when we want to take some data from current object. Here it will take data from jsUser.
 };
 jsUserTwo.greetingTwo = function () {
-  console.log(`Hello js user, ${this.age} `); // this is used when we want to take some data from current object
+  console.log(`Hello js user, ${this.age} `); // this is used when we want to take some data from current object. Here it will take data from jsUserTwo.
 };
 
 // console.log(jsUser.greeting());
