@@ -28,10 +28,11 @@ const hundreds = 1000000;
 // console.log(Math.random()); // Will give random no from 0 to 0.99
 // console.log((Math.random()*10) + 1); // multiply by 10 means will give numbers from 0 till 9.99 and addition 1 will change range from 1 to 10
 
-/*const min = 10;
+
+const min = 10;
 const max = 20; 
- console.log(Math.floor(Math.random() * (max - min + 1)) + min)
- console.log(Math.round(Math.random()));*/
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// console.log(Math.round(Math.random()));
 
 /*
 Assume we want some random number but in range like minimum no 10 and maximum number till 19*/
@@ -39,4 +40,5 @@ console.log(Math.floor(Math.random() * (20 - 10)) + 10);
 
 /*
 Assume we want some random number but in range like minimum no 10 and maximum number till 20 inclued 20*/
+
 console.log(Math.floor(Math.random() * (20 - 10 + 1)) + 10);
