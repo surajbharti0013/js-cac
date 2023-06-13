@@ -1,24 +1,26 @@
-"use strict"; // treat all  code as newer version of JS
+"use strict"; // treat all JS code as newer version
 
-//alert( 3 + 3 ); // We are using node.js, not browser.
+// alert( 3 + 3 ); // we are using node.js not browser.
 
-console.log(3 + 3); //code readablity should be high
-console.log("Suraj");
+console.log( 3 
+    +
+    3 ); // Should not write like this.Code readability should be high 
+
+console.log("suraj");
 
 let name = "suraj";
 let age = 18;
 let isLoggedIn = false;
-let state;
 
-// number => 2 to power 53;
-// bigint
-// string => ""
-// boolean => true/false;
-// null => standalone value
-// undefined =>
-// symbol => unique
+// number => range of number is 2 to the power 53
+// bigint => We use bigint when numbers of digit is long.(We use normally )
+// string => Text inside single/double quotes.
+// boolean => just true/false. Something is true or false.
+// null => Reference of empty variable(Let we make any app we ask temp of someplace and server have some problem so it will send null if it sends zero(0) then zero(0) is also a value thats why we use null). Its standalone value.
+// undefined => We have created some variable but we have not assigned its value.
+// symbol => uniqueness, to create two component with same name and same value.
 
-//object
+//objects
 
-console.log(typeof undefined); //undefined
-console.log(typeof null); //object
+console.log(typeof undefined);
+console.log(typeof null);
