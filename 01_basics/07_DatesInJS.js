@@ -24,6 +24,7 @@ let myDate = new Date();
 
 // let myCreatedDate = new Date("2023-01-14"); // It will return date as we defined yyyy-mm-dd
 // let myCreatedDate = new Date("01-14-2023"); // It will return date as we defined mm-dd-yyyy
+
 // console.log(myCreatedDate.toLocaleString());
 
 // let myTimeStamp = Date.now(); // Date.now() will return current seconds but in milli seconds digit
