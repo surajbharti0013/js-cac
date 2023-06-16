@@ -57,12 +57,45 @@
 // ***************************************************************
 // function with if
 
-function loginUserMessage(username) { //if  we want to give aome default value (username = "sam")
-    if (username === undefined){
-      console.log("Please enter a username");
-    }
+// function loginUserMessage(username = "sam") { //if  we want to give some default value (username = "sam")
+//     if (username === undefined){
+//       console.log("Please enter a username");
+//     }
     
-      return `${username} just logged in`
-    }
+//       return `${username} just logged in`
+//     }
     
-    console.log(loginUserMessage())
+//console.log(loginUserMessage())
+
+// ***************************************************************
+
+// function calculateCartPrice(...num1){ //...num1 is called rest / spread operator its name are depends on situation.
+//   return num1
+// }
+
+// console.log(calculateCartPrice(200, 400, 500))
+
+// *************************************************************** Passing values via object.
+
+// const user = {
+//   username : "suraj",
+//   price:199
+// }
+
+// function handleObject(anyobject){
+//   console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
+// }
+
+//  handleObject(user)
+
+// handleObject(user)
+// handleObject({
+//   username:"sam",
+//   price:399
+// })
+
+// *************************************************************** Passing values via array.
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue
