@@ -69,7 +69,7 @@
 
 // ***************************************************************
 
-// function calculateCartPrice(...num1){ //...num1 is called rest / spread operator its name are depends on situation.
+// function calculateCartPrice(...num1){ //... (3dots) is called rest operator / spread operator its name are depends on situation. Depends on situation its called rest and sometime its called spread.
 //   return num1
 // }
 
@@ -86,7 +86,7 @@
 //   console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`)
 // }
 
-//  handleObject(user)
+// handleObject(user)
 
 // handleObject(user)
 // handleObject({
@@ -96,6 +96,11 @@
 
 // *************************************************************** Passing values via array.
 
-const myNewArray = [200, 400, 100, 600]
+const myNewArray = [200, 400, 500, 1000]
 
-function returnSecondValue
+function returnSecondValue (getArray) {
+  return getArray[3]
+}
+
+//console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([200, 400, 500, 1000]));
