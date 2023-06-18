@@ -1,6 +1,5 @@
 // function are package of code which can be execute when we call it. So we don't have to write same code again and again.
 
-
 // function sayMyName(){
 //   console.log("S");
 //   console.log("U");
@@ -60,12 +59,13 @@
 // function loginUserMessage(username = "sam") { //if  we want to give some default value (username = "sam")
 //     if (username === undefined){
 //       console.log("Please enter a username");
+//       return
 //     }
     
 //       return `${username} just logged in`
 //     }
     
-//console.log(loginUserMessage())
+// console.log(loginUserMessage(""))
 
 // ***************************************************************
 
@@ -88,7 +88,6 @@
 
 // handleObject(user)
 
-// handleObject(user)
 // handleObject({
 //   username:"sam",
 //   price:399
@@ -96,11 +95,11 @@
 
 // *************************************************************** Passing values via array.
 
-const myNewArray = [200, 400, 500, 1000]
+// const myNewArray = [200, 400, 500, 1000]
 
-function returnSecondValue (getArray) {
-  return getArray[3]
-}
+// function returnSecondValue (getArray) {
+//   return getArray[3]
+// }
 
-//console.log(returnSecondValue(myNewArray))
-console.log(returnSecondValue([200, 400, 500, 1000]));
+// console.log(returnSecondValue(myNewArray))
+// console.log(returnSecondValue([200, 400, 500, 1000]));
