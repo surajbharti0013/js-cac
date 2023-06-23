@@ -14,14 +14,12 @@
 // ();
 
 // ************ IIFE using arrow function
-
 // ( () => {
 // Also known as named IIFE
 //   console.log(`DB CONNECTED`);
 // } )()
 
 // ************ IIFE using arrow function with variable
-
 ( (name) => {
     // Also known as named without name IIFE
     console.log(`DB CONNECTED ${name}`);
