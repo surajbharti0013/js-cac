@@ -7,7 +7,6 @@
 // chai()
 
 // Both way to write IIFE is correct
-
 // (function chai(){
 //   console.log(`DB CONNECTED`);
 // })
