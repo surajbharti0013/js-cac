@@ -37,3 +37,18 @@ const temperature = 41
 // } else {
 //   console.log("less than 1200")
 // }
+
+/*elseif using && and ||*/
+
+// const userloggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromEmail = true
+
+// if (userloggedIn && debitCard && 2=="2") {
+//   console.log("Allow to buy course");  
+// }
+
+// if (loggedInFromGoogle || loggedInFromEmail) {
+//   console.log("User logged in")
+// }
